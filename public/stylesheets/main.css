@@ -1,0 +1,32 @@
+body{
+  background-color: black; 
+  
+}
+
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px
+}
+
+.footer {
+    
+    text-align: center;
+}
+#delete-form {
+    display: inline;
+}
+.delete-form {
+    display: inline;
+}
+.goback {
+    margin:0 auto;
+   
+}
