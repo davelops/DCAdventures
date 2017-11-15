@@ -18,11 +18,11 @@ var commentRoutes    = require("./routes/comments"),
     
     
 
-mongoose.connect("mongodb://localhost/yelp_camp_v12", {useMongoClient: true});
+//mongoose.connect("mongodb://localhost/yelp_camp_v12", {useMongoClient: true});
 //mongoose.connect(process.env.DATABASEURL, {useMongoClient: true});
 
 
-//mongoose.connect("mongodb://davelops:Praypal1955#$@ds151955.mlab.com:51955/yelpcamp");
+mongoose.connect("mongodb://davelops:Praypal1955#$@ds163705.mlab.com:63705/davescamp", {useMongoClient: true});
 //mongodb://davelops:Praypal1955#$@ds151955.mlab.com:51955/yelpcamp
 mongoose.Promise = global.Promise; 
 
