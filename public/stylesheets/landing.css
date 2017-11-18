@@ -1,5 +1,8 @@
 body {
   background-color: #000;
+  background-image: url(https://c1.staticflickr.com/9/8010/7365701306_ecb0e4ced8_b.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 #landing-header {
