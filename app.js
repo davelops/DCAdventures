@@ -22,8 +22,8 @@ var commentRoutes    = require("./routes/comments"),
 //mongoose.connect(process.env.DATABASEURL, {useMongoClient: true});
 //mongodb://davelops:Praypal1955#$@ds111476.mlab.com:11476/camps
 
-mongoose.connect("mongodb://davelops:Praypal1955#$@ds111476.mlab.com:11476/camps", {useMongoClient: true});
-mongoose.Promise = global.Promise; 
+mongoose.connect("mongodb://davelops:Praypal1955#$@ds111476.mlab.com:11476/camps");
+//mongoose.Promise = global.Promise; 
 
 
 
