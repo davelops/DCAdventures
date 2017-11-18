@@ -90,6 +90,6 @@ router.delete("/:id",middleware.checkCampgroundOwnership, function(req, res){
    });
 });
 
-
+//ok
 module.exports = router;
 

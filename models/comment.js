@@ -10,5 +10,5 @@ var commentSchema = mongoose.Schema({
         username: String
     }
 });
-
+//ok
 module.exports = mongoose.model("Comment", commentSchema);

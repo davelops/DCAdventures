@@ -19,5 +19,5 @@ var campgroundSchema = new mongoose.Schema({
       }
    ]
 });
-
+//ok
 module.exports = mongoose.model("Campground", campgroundSchema);

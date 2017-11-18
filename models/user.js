@@ -7,5 +7,5 @@ var UserSchema = new mongoose.Schema({
 });
 
 UserSchema.plugin(passportLocalMongoose)
-
+//ok
 module.exports = mongoose.model("User", UserSchema);
