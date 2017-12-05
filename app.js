@@ -23,7 +23,7 @@ var commentRoutes    = require("./routes/comments"),
 //mongodb://davelops:Praypal1955#$@ds111476.mlab.com:11476/camps
 
 mongoose.connect("mongodb://davelops:Praypal1955#$@ds111476.mlab.com:11476/camps");
-mongoose.Promise = global.Promise; 
+//mongoose.Promise = global.Promise; 
 
 
 
